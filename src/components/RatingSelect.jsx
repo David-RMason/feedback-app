@@ -4,7 +4,7 @@ export default function RatingSelect({ setRating }) {
 
   function handleChange(e) {
     setSelected(+e.currentTarget.value);
-    setRating(selected);
+    setRating(+e.currentTarget.value);
   }
   return (
     <ul className="rating">
