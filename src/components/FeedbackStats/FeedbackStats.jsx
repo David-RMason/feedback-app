@@ -1,3 +1,5 @@
+import "./FeedbackStats.css";
+
 export default function FeedbackStats({ feedback }) {
   let average =
     feedback.reduce((acc, cur) => {

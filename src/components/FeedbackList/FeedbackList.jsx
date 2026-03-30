@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import FeedbackItem from "./FeedbackItem";
+import FeedbackItem from "../FeedbackItem/FeedbackItem";
 
 export default function FeedbackList({ feedback, handleDelete }) {
   if (!feedback || feedback.length === 0) {

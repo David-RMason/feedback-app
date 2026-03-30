@@ -1,5 +1,7 @@
-import Card from "./shared/Card";
+import Card from "../shared/Card/Card";
 import { FaTimes } from "react-icons/fa";
+
+import "./FeedbackItem.css";
 
 export default function FeedbackItem({ item, handleDelete }) {
   return (

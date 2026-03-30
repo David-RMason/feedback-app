@@ -2,10 +2,10 @@ import { useState } from "react";
 
 import { v4 as uuidv4 } from "uuid";
 
-import Header from "./components/Header";
-import FeedbackList from "./components/FeedbackList";
-import FeedbackStats from "./components/FeedbackStats";
-import FeedbackForm from "./components/FeedbackForm";
+import Header from "./components/Header/Header";
+import FeedbackList from "./components/FeedbackList/FeedbackList";
+import FeedbackStats from "./components/FeedbackStats/FeedbackStats";
+import FeedbackForm from "./components/FeedbackForm/FeedbackForm";
 
 import feedbackData from "./data/feedbackData";
 
