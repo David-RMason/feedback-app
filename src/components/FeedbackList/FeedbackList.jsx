@@ -16,7 +16,6 @@ export default function FeedbackList({ handleDelete }) {
     <Spinner />
   ) : (
     <div className="feedback-list">
-      <Spinner />
       <AnimatePresence>
         {feedback.map((item, index) => (
           <motion.div
