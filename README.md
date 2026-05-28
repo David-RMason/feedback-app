@@ -1,3 +1,6 @@
+<img width="2800" height="1000" alt="localhost_3000_ (1)" src="https://github.com/user-attachments/assets/ff34aded-799e-4abe-b099-df973067972b" />
+
+
 # Feedback App
 
 A feedback application built with React to showcase modern state management, routing, and animation techniques.
